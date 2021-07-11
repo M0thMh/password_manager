@@ -16,6 +16,13 @@ for i in range(10):
 #INTNUM = random.randint(0,100000000000000000000)
 INTNUM = string.printable
 
-sTR = "".join(random.choices(INTNUM) for i in range(10))
+#sTR = "".join(random.choices(INTNUM) for i in range(10))
 
-print(sTR)
+#print(sTR)
+
+
+INTNUM = random.randint(0, 10000000000000000)
+STR = string.ascii_letters
+PASSWORD = "".join(random.choices(INTNUM, STR))
+
+print(PASSWORD)

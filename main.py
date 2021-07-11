@@ -17,7 +17,7 @@ Q = """
 def Gen():
     INTNUM = random.randint(0,10000000000000000)
     STR    = string.ascii_letters
-    PASSWORD = "".join(random.choices(INTNUM, ))
+    PASSWORD = "".join(random.choices(INTNUM, STR))
 
 
 
@@ -28,6 +28,8 @@ def main():
     print(Q)
     INPUT = int(input("Please Enter The Number of Command:")) 
     if INPUT == 1:
+        pass
+
 
 
 

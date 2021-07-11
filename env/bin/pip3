@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/home/mqh/Dev/Python/Scripting/Password Manager/env/bin/python" "$0" "$@"
-' '''
+#!/home/mqh/Dev/Python/Scripting/password_manager/env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
